@@ -1,6 +1,7 @@
 
 import Hashids from 'hashids'
 
+// This are human entry safe characters, i.e. each character is easily destingished from the other - no O's and 0's, no 1's and i's.
 const CodeCharacters = [ '2', '3', '4', '5', '6', '7', '8', '9', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'Q', 'R', 'T', 'V', 'W', 'X', 'Y' ];
 const HashCharsStr = CodeCharacters.join('')
 
